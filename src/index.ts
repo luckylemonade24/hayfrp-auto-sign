@@ -78,7 +78,7 @@ export default {
             })
             return new Response(readable, {
                 headers: {
-                    'Content-Type': 'text/plain',
+                    'Content-Type': 'text/plain;charset=UTF-8',
                     'Transfer-Encoding': 'chunked',
                     'Cache-Control': 'no-cache',
                     'Connection': 'keep-alive',
